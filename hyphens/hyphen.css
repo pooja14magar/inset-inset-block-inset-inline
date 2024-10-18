@@ -1,0 +1,11 @@
+#box{
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    border: 1px solid black;
+    background-color: pink;
+     hyphens: auto;
+    /* hyphens:manual; */
+    hyphenate-character: '--';
+    hyphenate-limit-chars: 10 15;
+}

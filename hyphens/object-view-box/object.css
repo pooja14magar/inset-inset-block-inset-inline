@@ -1,0 +1,7 @@
+ img{
+    /* clip-path:inset(15% 35% 15% 35%);  */
+    object-view-box:inset(15% 35% 15% 35%);
+    width:400px;
+    aspect-ratio: 1;
+    object-fit: cover;
+}

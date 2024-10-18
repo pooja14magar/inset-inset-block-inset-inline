@@ -1,0 +1,16 @@
+/* #box{
+    background-color: aqua;
+    position: absolute;
+    inset: 10%;
+} */
+ #outer{
+    background-color: brown;
+    width: 300px;
+    height: 300px;
+    position: relative;
+ }
+ #inner{
+    background-color: blueviolet;
+    position: absolute;
+    inset-inline: 5% 10%;
+ }

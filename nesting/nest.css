@@ -1,0 +1,34 @@
+#menu{
+    & li{
+        background-color: pink;
+        & a{
+            color: red;
+            text-decoration: none;
+
+            &:hover{
+                color: green;
+
+            }
+        }
+    }
+}
+#box{
+    & h2{
+        color: green;
+    }
+    & .demo{
+        color: aqua;
+    }
+    /* + h2{
+        color: blue;
+    } */
+     ~ h2{
+        color: blue;
+     }
+}
+.foo{
+    color: blueviolet;
+    &.bar{
+        color: lightcoral;
+    }
+}
